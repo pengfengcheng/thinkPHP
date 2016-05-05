@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__css__/bootstrap.min.css">
+<script src="__js__/jquery.min.js"></script>
+
+<style>
+.table {
+	width: 100%;
+	marign-top:10px;
+}
+.form-control{width:80%;}
+.con{width:90%; height:450px;}
+#pic{width:300px;}
+#title{ width:400px;}
+</style>
+<title>内容管理</title>
+</head>
+<body>
+<ul class="nav nav-tabs">
+  <li role="presentation" ><a href="__URL__/pindex">单页列表</a></li>
+  <li role="presentation" class="active"><a href="#">添加单页</a></li>
+</ul>
+
+<form class="form-group" method="post" action="__URL__/post">
+<table border="0" class="table table-hover">
+  <tbody>
+    <tr>
+      <td width="15%" align="right">标题：</td>
+      <td width="85%">
+        <div class="form-inline">
+        
+        <input type="text" name="title" class="form-control" id="title">
+        
+</div> </td>
+      </tr>
+   
+    <tr>
+      <td align="right">关键字：</td>
+      <td><input type="text" name="arkey" class="form-control"></td>
+    </tr>
+
+        <tr>
+      <td align="right">描述：</td>
+      <td>
+      <textarea class="form-control" name="ardesc"></textarea>
+      </td>
+    </tr>
+     <tr>
+      <td height="44" align="right">时间：</td>
+      <td><input  type="text"  name="subtime" class="form-control" style="width:200px;" value="{$Think.now}"></td>
+    </tr>
+        <tr>
+      <td align="right">作者：</td>
+      <td><input type="text" name="write" class="form-control" style="width:200px;"></td>
+    </tr>
+
+      <tr>
+       <td colspan="2" align="center">
+       <script id="container" name="body" type="text/plain"></script>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__public__/bdeditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__public__/bdeditor/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+		window.UEDITOR_CONFIG.initialFrameHeight=600;
+		window.UEDITOR_CONFIG.imagePathFormat="__URL__/bdupload/{yyyy}{mm}{dd}/{time}{rand:6}";
+        var ue = UE.getEditor('container');
+		
+    </script> 
+       </td>
+      </tr>
+    
+       
+            <tr>
+      <td colspan="2" align="center">
+      <input type="submit" value="提交" class="btn btn-primary">
+      </td>
+    </tr>
+  </tbody>
+</table>
+</form>
+</body>
+</html>

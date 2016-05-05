@@ -1,0 +1,1988 @@
+[ 2016-04-29T00:35:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.037497s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0062s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082740s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022460s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.047474s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.097221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005392s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006601s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2016-04-29T00:36:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005413s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035877s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0073s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.080107s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021627s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045733s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.094008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006097s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054994s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007027s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-04-29T00:36:38+08:00 ] 127.0.0.1 /index.php/Home/Index/body/id/89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `article` WHERE `id` = 89 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.077323s ]
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0072s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.121834s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022626s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.046305s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.135387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005227s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006142s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-04-29T00:36:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033421s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001559s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0084s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.078695s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021394s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.046151s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.093096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005141s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055881s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006081s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2016-04-29T00:51:02+08:00 ] 127.0.0.1 /index.php/Home/Index/body/id/89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `article` WHERE `id` = 89 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.029497s ]
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0061s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.073658s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021705s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045336s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.087433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005088s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006065s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2016-04-29T00:51:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0065s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.034337s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0069s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081680s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024093s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.048143s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.095637s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006008s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006931s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.058371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2016-04-29T00:55:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0390s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.092350s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0062s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.140226s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023176s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.027064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049274s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.154325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005872s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.053357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.058252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006877s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.053357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.059222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003221s ]
+
+[ 2016-04-29T00:55:50+08:00 ] 127.0.0.1 /index.php/Home/Index/body/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-04-29T00:57:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0830s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.032251s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0058s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.075206s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021520s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.023847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044535s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.089072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005838s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.048989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006790s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.048989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2016-04-29T00:58:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035265s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0064s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.078994s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021374s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045729s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.093615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005286s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054975s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006419s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002064s ]
+
+[ 2016-04-29T01:00:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0084s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.037265s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0066s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082841s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022568s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.046088s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.096524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004977s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005968s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-04-29T01:02:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.034054s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0068s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.078711s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021258s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045524s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.092066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006385s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007327s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2016-04-29T01:03:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035712s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0065s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.080215s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022767s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.046678s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.094210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004889s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005758s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2016-04-29T01:04:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036691s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001745s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0070s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082699s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021896s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045866s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.096004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005374s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006252s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002089s ]
+
+[ 2016-04-29T01:07:04+08:00 ] 127.0.0.1 /index.php/Home/Index/body/id/90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `article` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031006s ]
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0072s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.077284s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022990s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.047934s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.091169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005280s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006268s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002096s ]
+
+[ 2016-04-29T01:07:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035309s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0072s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081988s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021680s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.046873s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.096520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005093s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.053142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005997s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.053142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2016-04-29T01:07:51+08:00 ] 127.0.0.1 /index.php/Home/Index/body/id/91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `article` WHERE `id` = 91 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.032418s ]
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0080s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.080808s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023190s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.027665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.050110s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.095200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005700s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.054872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.059609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006743s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.054872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.060597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2016-04-29T01:11:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036211s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0061s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079586s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022299s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.023471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044737s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.093049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005143s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.048976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.053083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006050s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.048976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.053976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-04-29T01:17:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.032519s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0070s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.075173s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021156s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.023489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043838s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.088085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005443s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.047558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.052227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007035s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.047558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.053770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2016-04-29T01:18:30+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036059s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0068s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079825s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021786s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045119s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.093487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006444s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054704s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007426s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2016-04-29T01:19:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036383s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002408s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0074s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.083895s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023644s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.047801s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.098623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006781s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.053149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007929s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.053149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.058939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001674s ]
+
+[ 2016-04-29T01:21:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.041872s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0071s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.088376s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022450s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.046736s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.101838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006145s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007120s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2016-04-29T01:21:18+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0276s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.057339s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001629s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0087s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.108580s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022668s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.029048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.050453s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.122270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005288s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.055493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.059405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006259s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.055493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.060353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2016-04-29T11:17:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0391s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0429s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.072908s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.035719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036008s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0097s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.188542s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022017s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.095819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.082280s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.201843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004987s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.121432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.090697s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005918s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.121432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.091619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2016-04-29T12:52:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035350s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0066s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.080532s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025998s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.051256s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.101285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007081s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.057094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.063601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008891s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.057094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.065386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002177s ]
+
+[ 2016-04-29T12:53:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ad` LIMIT 4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `webconfig` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`webtitle`,`webkey`,`webdesc` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cate` ORDER BY cateindex desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: webfoot E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036929s ]
+NOTIC: [8] Undefined variable: title E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: classtitle E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 7 行.
+NOTIC: [8] Undefined variable: arkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: classkey E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 8 行.
+NOTIC: [8] Undefined variable: ardesc E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+NOTIC: [8] Undefined variable: classbody E:\thinkPHPdemo\myphp\Runtime\Cache\Home\af2e69ddfebf71c3fd85058be035d9bb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 43 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\04b42a48b4c6456de685ebc93d30a1d0.php 第 44 行.
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `link` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE ( istop=1 ) LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE ( isindex=1 ) LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\thinkPHPdemo\myphp\Home\Widget\CateWidget.class.php on line 30 and defined E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\thinkPHPdemo\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0068s ]
+SQL: SELECT `classname` FROM `class`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079561s ]
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+NOTIC: [8] Undefined variable: vo E:\thinkPHPdemo\myphp\Runtime\Cache\Home\4039a4b1325076d8d29b240ae8ae37f7.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022663s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.046119s ]
+SQL: SELECT `id`,`webbeian`,`webfoot` FROM `webconfig` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.094422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004909s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005757s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+

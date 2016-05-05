@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>博客首页</title>
+<link rel="stylesheet" href="__css__/bootstrap.css">
+<style>
+html.body {
+	color: #505050;
+	line-height: 1.75em;
+	background-color: #ebebeb;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+a {
+	color: #BB0B0E;
+	outline: none;
+	text-decoration: none;
+}
+a:hover {
+	color: #7E080A;
+	outline: none;
+	text-decoration: none;
+}
+.main-header {
+	text-align: center;
+	padding: 42px 0;
+	background: #fff;
+}
+.main-header .branding {
+	font-size: 3.5em;
+	color: #303030;
+}
+.main-header .branding img {
+	max-width: 100%;
+}
+a:active, a:focus a img {
+	outline: none;
+}
+.main-navigation {
+	text-align: center;
+	background: #fff;
+	border-top: 1px solid #A0A0A0;
+	border-bottom: 3px solid #A0A0A0;
+}
+.menu {
+	margin: 0px;
+	padding: 0px;
+}
+.content-wrap {
+	background-color: #E1E1E1;
+}
+.main-content {
+	margin-top: 30px;
+}
+.main-navigation .menu li.nav-current {
+	border-bottom: 3px solid #FF7E00;
+	margin-bottom: -2px;
+}
+.main-navigation .menu li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.main-navigation .menu li a {
+	color: #505050;
+	line-height: 4em;
+	display: block;
+	padding: 0 21px;
+}
+.post {
+	padding: 35px;
+	background: #fff;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.post .post-head {
+	text-align: center;
+}
+.post .post-head .post-title {
+	text-align: center;
+	margin: 0px;
+	font-size: 2.5em;
+	line-height: 1em;
+}
+.post .post-head .post-title a {
+	color: #414141;
+}
+.post .post-head .post-meta {
+	color: #959595;
+	margin: 14px;
+	text-align: center;
+}
+.post-content {
+	color: #444443;
+	color: #444443;
+}
+.post-content p {
+	margin-top: 0px;
+	margin-bottom: 1.46em;
+	line-height: 23px;
+	margin-top: 4px;
+}
+.btn-default {
+	border: 1px solid #D33B00;
+	background: #AF0A0D;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+.btn {
+	padding: 7px 14px;
+	border-radius: 2px;
+}
+.sidbar .widget {
+	margin-top: 30px;
+	background: #fff;
+	padding: 21px 30px;
+	border-radius:10px;
+}
+.widget {
+	margin-bottom: 35px;
+}
+.widget .title {
+	margin-top: 0;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #BCBCBC;
+	margin-bottom: 21px;
+	position: relative;
+}
+.cloud a {
+	display: inline-block;
+	padding: 4px;
+	border: 1px solid #DDDDDD;
+	margin: 3px;
+}
+.main-footer {
+	background: #202020;
+	padding: 35px 0 0;
+}
+.main-footer .widget {
+	margin-bottom: 35px;
+	text-align:center;
+	color: #787878;
+}
+.main-footer .title {
+	color: #fff;
+	border-bottom: 1px solid #CBCBCB;
+}
+.widget .title {
+	margin-top: 0px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #494646;
+	position: relative;
+	
+}
+.main-footer .widget .recent-post a {
+	margin:5px;
+	color:#B1B1B1;
+}
+</style>
+</head>
+<body class="home-template">
+<header class="main-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"> <a href="#" class="branding" title="我的首页"> <img src="img/tmall.jpg"/>
+        <h2 class="text-hide">这个是我的一个大首页</h2>
+        </a> </div>
+    </div>
+  </div>
+</header>
+<nav class="main-navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="nav-header"> <span class="nav-toggle-button collapse" data-target="#main-menu"> <span class="sr-only">toggle navigation</span> <i class="fa fa-bars"></i> </span> </div>
+        <div class="collapse navbar-collapse" id="main-menu">
+          <ul class="menu">
+            <li class="nav-current" role="presentation"> <a href="#" >首页</a> </li>
+            <li role="presentation"> <a href="#" >我的产品</a> </li>
+            <li role="presentation"> <a href="#" >我的图片</a> </li>
+            <li role="presentation"> <a href="#" >我的视频</a> </li>
+            <li role="presentation"> <a href="#" >公司简介</a> </li>
+            <li role="presentation"> <a href="#" >联系我们</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="content-wrap">
+  <div class="container">
+    <div class="row">
+      <main class="col-md-8 main-content" >
+        <article class="post">
+          <div class="post-head">
+            <h1 class="post-title"> <a href="#">论一个人的成功不只是靠运气！ </a> </h1>
+            <div class="post-meta"> <span class="author"> 作者<a href="#">王晋渤</a> </span>.
+              <time class="data" datetime="2016.03.29">2016.03.29</time>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容</p>
+          </div>
+          <div class="post-permalink"> <a href="#" class="btn btn-default">阅读全文</a> </div>
+          <div class="footer clearfix">
+            <hr />
+            <div class="pull-left tag-list"> <i class="fa fa-folder-open-o"></i> <a href="#">我的tag</a> <a href="#">我的tag</a> <a href="#">我的tag</a> <a href="#">我的tag</a> </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post-head">
+            <h1 class="post-title"> <a href="#">论一个人的成功不只是靠运气！ </a> </h1>
+            <div class="post-meta"> <span class="author"> 作者<a href="#">王晋渤</a> </span>.
+              <time class="data" datetime="2016.03.29">2016.03.29</time>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容</p>
+          </div>
+          <div class="post-permalink"> <a href="#" class="btn btn-default">阅读全文</a> </div>
+          <div class="footer clearfix">
+            <hr />
+            <div class="pull-left tag-list"> <i class="fa fa-folder-open-o"></i> <a href="#">我的tag</a> <a href="#">我的tag</a> <a href="#">我的tag</a> <a href="#">我的tag</a> </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post-head">
+            <h1 class="post-title"> <a href="#">论一个人的成功不只是靠运气！ </a> </h1>
+            <div class="post-meta"> <span class="author"> 作者<a href="#">王晋渤</a> </span>.
+              <time class="data" datetime="2016.03.29">2016.03.29</time>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容</p>
+          </div>
+          <div class="post-permalink"> <a href="#" class="btn btn-default">阅读全文</a> </div>
+          <div class="footer clearfix">
+            <hr />
+            <div class="pull-left tag-list"> <i class="fa fa-folder-open-o"></i> <a href="#">我的tag</a> <a href="#">我的tag</a> <a href="#">我的tag</a> <a href="#">我的tag</a> </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post-head">
+            <h1 class="post-title"> <a href="#">论一个人的成功不只是靠运气！ </a> </h1>
+            <div class="post-meta"> <span class="author"> 作者<a href="#">王晋渤</a> </span>.
+              <time class="data" datetime="2016.03.29">2016.03.29</time>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容我的内容</p>
+          </div>
+          <div class="post-permalink"> <a href="#" class="btn btn-default">阅读全文</a> </div>
+          <div class="footer clearfix">
+            <hr />
+            <div class="pull-left tag-list"> <i class="fa fa-folder-open-o"></i> <a href="#">我的tag</a> <a href="#">我的tag</a> <a href="#">我的tag</a> <a href="#">我的tag</a> </div>
+          </div>
+        </article>
+      </main>
+      <aside class="col-lg-4 sidbar">
+        <div class="widget">
+          <h4 class="title">社区</h4>
+          <div class="content community">
+            <p>QQ群123456878</p>
+            <p><a href="#">问答社区</a></p>
+            <p><a href="#">官网微信</a></p>
+          </div>
+        </div>
+        <div class="widget">
+          <h4 class="title">下载</h4>
+          <div class="content down"> <a href="#" class="btn btn-default btn-block">下载</a> </div>
+        </div>
+        <div class="widget">
+          <h4 class="title">标签云</h4>
+          <div class="content cloud"> <a href="#">ghost</a> <a href="#">ghost</a> <a href="#">ghost</a> <a href="#">ghost</a> <a href="#">ghost</a> <a href="#">ghost</a> <a href="#">ghost</a> <a href="#">ghost</a> </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+<footer class="main-footer">
+  <div class="container">
+    <div class="col-lg-12">
+      <div class="widget">
+        眉山大旺信息技术
+      </div>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>

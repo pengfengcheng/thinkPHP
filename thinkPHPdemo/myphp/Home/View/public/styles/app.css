@@ -1,0 +1,169 @@
+/* CSS Document */
+
+html.body {
+	color: #505050;
+	line-height: 1.75em;
+	background-color: #ebebeb;
+	font-family: "微软雅黑";
+}
+a {
+	color: #BB0B0E;
+	outline: none;
+	text-decoration: none;
+}
+a:hover {
+	color: #7E080A;
+	outline: none;
+	text-decoration: none;
+}
+.main-header {
+	text-align: center;
+	padding: 42px 0;
+	background: #fff;
+}
+.main-header .branding {
+	font-size: 3.5em;
+	color: #303030;
+}
+.main-header .branding img {
+	max-width: 100%;
+}
+a:active, a:focus a img {
+	outline: none;
+}
+.main-navigation {
+	text-align: center;
+	background: #fff;
+	border-top: 1px solid #A0A0A0;
+	border-bottom: 3px solid #A0A0A0;
+}
+.menu {
+	margin: 0px;
+	padding: 0px;
+}
+.content-wrap {
+	background-color: #E1E1E1;
+}
+.main-content {
+	margin-top: 30px;
+}
+.main-navigation .menu li.nav-current {
+	border-bottom: 3px solid #FF7E00;
+	margin-bottom: -2px;
+}
+.main-navigation .menu li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.main-navigation .menu li a {
+	color: #505050;
+	line-height: 4em;
+	display: block;
+	padding: 0 21px;
+}
+.focus {
+	padding: 5px;
+	background: #fff;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.post {
+	padding: 35px;
+	background: #fff;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.post .post-head {
+	text-align: center;
+}
+.post .post-head .post-title {
+	text-align: center;
+	margin: 0px;
+	font-size: 2em;
+	line-height: 1em;
+}
+.post .post-head .post-title a {
+	color: #5E0D0B;
+}
+.post .post-head .post-meta {
+	color: #959595;
+	margin: 14px;
+	text-align: center;
+}
+.post-content {
+	color: #444443;
+	color: #444443;
+}
+.post-content p {
+	margin-top: 0px;
+	margin-bottom: 1.46em;
+	line-height: 23px;
+	margin-top: 4px;
+}
+.post .author{margin:20px;}
+
+.post .tag-list{ color: #9B9B9B; margin:2px;}
+.btn-default {
+	border: 1px solid #D33B00;
+	background: #AF0A0D;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+.btn {
+	padding: 7px 14px;
+	border-radius: 2px;
+}
+.sidbar .widget {
+	margin-top: 30px;
+	background: #fff;
+	padding: 21px 30px;
+	border-radius:10px;
+}
+.widget {
+	margin-bottom: 35px;
+}
+.widget .title {
+	margin-top: 0;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #BCBCBC;
+	margin-bottom: 21px;
+	position: relative;
+}
+.cloud {
+	display: inline-block;
+	padding: 4px;
+	margin: 3px;
+	color: #7A7575;
+}
+.main-footer {
+	background: #202020;
+	padding: 35px 0 0;
+}
+.main-footer .widget {
+	margin-bottom: 35px;
+	text-align:center;
+	color: #787878;
+}
+.main-footer .title {
+	color: #fff;
+	border-bottom: 1px solid #CBCBCB;
+}
+.widget .title {
+	margin-top: 0px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #494646;
+	position: relative;
+	
+}
+.main-footer .widget .recent-post a {
+	margin:5px;
+	color:#B1B1B1;
+}
+.page{ color:#726E6E; background: #FFFFFF; height:50px; border-radius:10px; text-align:center; line-height:50px;}
+.page a{padding:5px; color:#989494; border:1px solid #C8C0C0; margin:4px;}
+.page .current{padding:5px; color: #555151; border:1px solid #C8C0C0; background:#D3D3D3;}

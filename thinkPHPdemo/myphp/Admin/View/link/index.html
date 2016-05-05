@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__css__/bootstrap.min.css">
+<title>广告管理</title>
+</head>
+
+<body>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <form action="__URL__/post" method="post" enctype="multipart/form-data"  class="form-group">        
+        链接名称
+        <input type="text" name="linkname" class="form-control"><br/>
+       
+        链接地址：
+        <input type="text" name="linkurl" class="form-control">
+        <br/>
+        <input type="submit" value="添加链接" class="btn btn-info">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-5">
+<table class="table table-hover" width="500">
+  <tr>
+
+    <td width="18%" align="center">标题</td>
+    <td width="18%" align="center">链接</td>
+    <td width="27%" align="center">操作</td>
+  </tr>
+  <volist name="data" id="v">
+    <tr>
+       <td align="center" valign="middle">{$v.linkname}</td>
+       <td align="center" valign="middle">{$v.linkurl}</td>
+      <td align="center" valign="middle"><a href="__URL__/edit/id/{$v.id}" class="btn btn-primary">修改</a> <a href="__URL__/del/id/{$v.id}" class="btn btn-danger" onclick="return confirm('确定删除当前数据？')">删除</a></td>
+    </tr>
+  </volist>
+</table>
+</div>
+</div>
+</body>
+</body>
+</html>

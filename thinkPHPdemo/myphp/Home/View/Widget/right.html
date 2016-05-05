@@ -1,0 +1,40 @@
+      <aside class="col-lg-4 sidbar">
+              <div class="widget">
+          <h4 class="title">联系我们</h4>
+          <div class="content cloud"> 
+         联系人：{$webpeople} <br/>
+         联系电话：{$webphone} <br/>
+         联系QQ：<!--<a href="tencent://message/?uin=228392101&amp;Site=易尚软件&amp;Menu=yes">--><a href="#"></a><img border="0" alt="" src="http://pub.idqqimg.com/qconn/wpa/button/button_11.gif" data-bd-imgshare-binded="1"></a>{$webqq} <br/>
+         QQ群：468852313<br/>
+         <!--<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=50602eb34cc1846cd494e9383676ada70758918e71b1bf4cebec8c0042961128">--><a href=""></a><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="海贼王俱乐部" title="海贼王俱乐部"></a>
+          </div>
+        </div>
+                <div class="widget">
+          <h4 class="title">置顶文章</h4>
+          <volist name="topdata" id="top">
+            <a href="__URL__/body/id/{$vo.id}">{$top.title}</a><br/>
+            </volist>
+         </div>
+        <div class="widget">
+          <h4 class="title">文章分类</h4>
+          <div class="content community">
+          <volist name="classdata" id="cid">  
+            <p><a href="__URL__/clist/cname/{$cid.classname}">{$cid.classname}</a></p>
+	 	 </volist>
+          </div>
+        </div>
+
+         <div class="widget">
+          <h4 class="title">推荐文章</h4>
+          <volist name="indexdata" id="index">
+            <a href="__URL__/body/id/{$index.id}">{$index.title}</a><br/>
+            </volist>
+         </div>
+         <div class="widget">
+          <h4 class="title">友情链接</h4>
+          <volist name="linkdata" id="l">
+            <a href="{$l.linkurl}" class="cloud">{$l.linkname}</a>
+            </volist>
+         </div>
+
+      </aside>

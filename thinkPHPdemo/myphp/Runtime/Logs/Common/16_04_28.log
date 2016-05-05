@@ -1,0 +1,168 @@
+[ 2016-04-28T13:55:42+08:00 ] 127.0.0.1 /index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-28T15:49:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/styles/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:49:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/styles/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:49:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/js/jquery-1.11.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:49:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:49:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:51:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/styles/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:51:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/styles/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006104s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:51:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/js/jquery-1.11.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005256s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:51:16+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001646s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:51:17+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:54:21+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/styles/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:54:21+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/styles/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:54:21+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002599s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:54:21+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/js/jquery-1.11.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002180s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:54:21+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:54:21+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001897s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T15:54:21+08:00 ] 127.0.0.1 /APP_NAME/Home/View/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T17:15:30+08:00 ] 127.0.0.1 /tu1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+ERR: 无法加载模块:Tu1
+
+[ 2016-04-28T19:09:28+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-04-28T19:45:46+08:00 ] 127.0.0.1 /APP_NAME/Admin/View/Public/images/lobg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T19:46:13+08:00 ] 127.0.0.1 /APP_NAME/Admin/View/Public/images/lobg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T19:46:24+08:00 ] 127.0.0.1 /APP_NAME/Admin/View/Public/styles/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T19:46:24+08:00 ] 127.0.0.1 /APP_NAME/Admin/View/Public/styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002456s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T19:54:31+08:00 ] 127.0.0.1 /APP_NAME/Admin/View/Public/styles/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T19:54:31+08:00 ] 127.0.0.1 /APP_NAME/Admin/View/Public/styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T19:54:35+08:00 ] 127.0.0.1 /APP_NAME/Admin/View/Public/styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-04-28T19:54:35+08:00 ] 127.0.0.1 /APP_NAME/Admin/View/Public/styles/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+ERR: 无法加载模块:APP_NAME
+

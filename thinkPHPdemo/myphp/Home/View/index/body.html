@@ -1,0 +1,26 @@
+{:W('Cate/head')}
+<section class="content-wrap">
+  <div class="container">
+    <div class="row">
+      <main class="col-md-8 main-content" >
+        <article class="post">
+          <div class="post-head">
+            <h1 class="post-title"> {$title} </h1>
+            <div class="post-meta"> <span class="author"> <span class="glyphicon glyphicon-user" ></span> &nbsp;&nbsp;{$write} </span>.
+              <time class="data"><span class="glyphicon glyphicon-list-alt" ></span>&nbsp;&nbsp;{$subtime}</time>
+            </div>
+          </div>
+          <div class="post-content">
+            <p><!--<img src="__ROOT__{$stitlepic}" /><br/>-->{$body}</p>
+          </div>
+          <div class="footer clearfix">
+            <hr />
+            <div class="tag-list"> <span class="glyphicon glyphicon-folder-open" ></span>&nbsp;&nbsp;&nbsp;{$classname} </div>
+          </div>
+        </article>
+      </main>
+      {:W('Cate/right')} </div>
+  </div>
+</section>
+{:W('Cate/footer')}
+</body></html>

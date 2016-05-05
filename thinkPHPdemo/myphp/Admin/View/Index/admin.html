@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>修改管理员帐号和密码</title>
+<link rel="stylesheet" href="__css__/bootstrap.min.css"></head>
+
+<body>
+<form method="post" action="__URL__/post/id/{$id}" class="form-horizontal">
+<div class="form-group">
+<div class="col-sm-3">
+用户名：<input type="text" name="username" value="{$username}" class="form-control">
+</div>
+</div>
+<div class="form-group">
+<div class="col-sm-3">
+密码：<input type="text" name="password" class="form-control" value="{$password}">
+</div>
+</div>
+<div class="form-group">
+<div class="col-sm-3">
+<input type="submit" value="修改" class="btn btn-pills">
+</div>
+</div>
+</form>
+</body>
+</html>

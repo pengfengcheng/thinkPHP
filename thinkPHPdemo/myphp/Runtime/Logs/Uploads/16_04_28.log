@@ -1,0 +1,35 @@
+[ 2016-04-28T16:58:15+08:00 ] 127.0.0.1 /uploads//uploads/2016-04-22/thumb5719c9605e32a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+
+[ 2016-04-28T20:02:24+08:00 ] 127.0.0.1 /index.php//uploads/2016-04-22/tu2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-04-28T20:02:24+08:00 ] 127.0.0.1 /index.php//uploads/2016-04-22/tu3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+
+[ 2016-04-28T20:02:24+08:00 ] 127.0.0.1 /index.php//uploads/2016-04-22/tu1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+
+[ 2016-04-28T20:39:35+08:00 ] 127.0.0.1 /index.php//uploads/2016-04-22/tu2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+
+[ 2016-04-28T20:39:35+08:00 ] 127.0.0.1 /index.php//uploads/2016-04-22/tu1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+
+[ 2016-04-28T20:39:35+08:00 ] 127.0.0.1 /index.php//uploads/2016-04-22/tu3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+

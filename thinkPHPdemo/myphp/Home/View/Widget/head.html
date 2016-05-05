@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{$title} {$classtitle}{$webtitle}</title>
+<meta name="keywords" content="{$arkey}{$classkey}{$webkey}"/>
+<meta name="description" content="{$ardesc}{$classbody}{$webdesc}"/>
+<link rel="stylesheet" href="__css__/bootstrap.css">
+<link rel="stylesheet" href="__css__/app.css">
+<script src="__js__/jquery-1.11.2.min.js"></script>
+<script src="__js__/bootstrap.min.js" ></script>
+</head>
+<body class="home-template">
+<header class="main-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"> <a href="#" class="branding" title="我的首页"> <img src="__images__/logo.png" style="width:600px;height:200px">
+        <h2 class="text-hide">{$webdesc}</h2>
+        </a> </div>
+    </div>
+  </div>
+</header>
+<nav class="main-navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+       <!-- <div class="nav-header">  </div>-->
+	    <!--导航栏-->
+        <div class="navbar" id="main-menu">
+          <ul class="menu">         
+            <li  id="mymenu"> <a href="http://www.tpdemo.com/" >首页</a> </li>
+            <volist name="catedata" id="cavo">
+            <li id="mymenu"> <a href='{$cavo.cateurl}' >{$cavo.catename}</a> </li>
+			</volist>
+            <script>
+            $("#mymenu").click(function(){
+				//alert("你点到我了");
+				//$(this).addClass("nav-curren").siblings().removeClass("nav-current");
+				});
+            </script>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
